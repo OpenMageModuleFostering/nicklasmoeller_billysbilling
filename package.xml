@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Nicklasmoeller_BillysBilling</name>
+    <version>0.2.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Automatic creation of invoices in Billy's Billing v2</summary>
+    <description>Billy's Billing enables you to keep your focus on selling, rather than all the hassle with accounting. It automatically sends your data through Billy's Billing API v2.&#xD;
+&#xD;
+It will trigger when you create credit memos and invoices, and submit the order data.</description>
+    <notes>First stable</notes>
+    <authors><author><name>Nicklas M&#xF8;ller</name><user>nicklasmoeller</user><email>hello@nicklasmoeller.com</email></author></authors>
+    <date>2015-01-02</date>
+    <time>23:08:46</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Nicklasmoeller_BillysBilling.xml" hash=""/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.4</max></php></required></dependencies>
+</package>
