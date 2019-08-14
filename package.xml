@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Nicklasmoeller_BillysBilling</name>
-    <version>0.2.0</version>
+    <version>0.2.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
     <channel>community</channel>
@@ -10,11 +10,11 @@
     <description>Billy's Billing enables you to keep your focus on selling, rather than all the hassle with accounting. It automatically sends your data through Billy's Billing API v2.&#xD;
 &#xD;
 It will trigger when you create credit memos and invoices, and submit the order data.</description>
-    <notes>First stable</notes>
+    <notes>Fix renaming issues between alpha and first stable</notes>
     <authors><author><name>Nicklas M&#xF8;ller</name><user>nicklasmoeller</user><email>hello@nicklasmoeller.com</email></author></authors>
-    <date>2015-01-02</date>
-    <time>23:08:46</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Nicklasmoeller_BillysBilling.xml" hash=""/></dir></target></contents>
+    <date>2015-01-06</date>
+    <time>13:10:58</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Nicklasmoeller_Billysbilling.xml" hash=""/></dir></target><target name="magecommunity"><dir name="Nicklasmoeller"><dir name="Billysbilling"><dir name="Helper"><file name="Data.php" hash="f4736eba20bc2d9c7fcedf64a7633204"/></dir><dir name="Model"><file name="Abstract.php" hash="5c6d911c3ffb7cb9b4a01ac110b6bb0b"/><file name="Client.php" hash="bfefb24176325e119735777e66055069"/><file name="Contact.php" hash="6cac465d3def83ecc5b7023ea1fce0f1"/><file name="Country.php" hash="00719daadf5e6b1bf33d20c871b88bbe"/><file name="Currency.php" hash="f0fc753816c8a701a3f4a2a77e538b19"/><file name="Invoice.php" hash="1f66a77cb8b4bea4b4ec4bc1a673c556"/><file name="Observer.php" hash="415a0dd2fa5a994f7cae110ae4d4a230"/><file name="Organization.php" hash="3c9878026777e83c37a0d6d5fbaa7bdd"/><file name="Product.php" hash="eb05e67dba21ee3aac0c929c583f9622"/><file name="Shipment.php" hash="f994dda14c629a2885de0af7a4b3a2e0"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6a3fdd657b1c112c61bb2700564f34ad"/><file name="config.xml" hash="59d4ee6d454c3aa47eb24716e8c9c4f7"/><file name="system.xml" hash="9ff46b75b2ba25efa7fae13c9cbb376f"/></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>5.6.4</max></php></required></dependencies>
 </package>
