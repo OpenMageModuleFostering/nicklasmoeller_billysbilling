@@ -4,7 +4,6 @@
  * Class Nicklasmoeller_Billysbilling_Model_Invoice
  *
  * @author Nicklas Møller <hello@nicklasmoeller.com>
- * @version 0.2.0
  */
 class Nicklasmoeller_Billysbilling_Model_Invoice extends Nicklasmoeller_Billysbilling_Model_Abstract
 {
@@ -86,7 +85,7 @@ class Nicklasmoeller_Billysbilling_Model_Invoice extends Nicklasmoeller_Billysbi
     {
         $lines = array();
 
-        $products = $orderData->getAllItems();
+        $products = $orderData->getAllVisibleItems();
 
         $this->client->request("GET", "/invoices");
 
@@ -110,7 +109,9 @@ class Nicklasmoeller_Billysbilling_Model_Invoice extends Nicklasmoeller_Billysbi
             $i++;
         }
 
-        $lines[$i] = Mage::getSingleton('billysbilling/shipment')->getShipping($orderData);
+        if ($orderData->getShippingInvoiced() > 0) {
+            $lines[$i] = Mage::getSingleton('billysbilling/shipment')->getShipping($orderData);
+        }
 
         return $lines;
     }

@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <package>
     <name>Nicklasmoeller_BillysBilling</name>
-    <version>0.2.2</version>
+    <version>0.2.3</version>
     <stability>stable</stability>
-    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <license>MIT</license>
     <channel>community</channel>
     <extends/>
     <summary>Automatic creation of invoices in Billy's Billing v2</summary>
     <description>Billy's Billing enables you to keep your focus on selling, rather than all the hassle with accounting. It automatically sends your data through Billy's Billing API v2.&#xD;
 &#xD;
 It will trigger when you create credit memos and invoices, and submit the order data.</description>
-    <notes>Fixed &lt; PHP 5.4 array issues. Removed an unwelcome log-line from the debugging process</notes>
+    <notes>Fixed product parents issue, removed empty shipping, added possibility to use a single Magento user (more if selling to different parts of the world) and as a fallback</notes>
     <authors><author><name>Nicklas M&#xF8;ller</name><user>nicklasmoeller</user><email>hello@nicklasmoeller.com</email></author></authors>
-    <date>2015-01-08</date>
-    <time>23:53:45</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Nicklasmoeller_Billysbilling.xml" hash=""/></dir></target><target name="magecommunity"><dir name="Nicklasmoeller"><dir name="Billysbilling"><dir name="Helper"><file name="Data.php" hash="f4736eba20bc2d9c7fcedf64a7633204"/></dir><dir name="Model"><file name="Abstract.php" hash="5c6d911c3ffb7cb9b4a01ac110b6bb0b"/><file name="Client.php" hash="5a71e03f607e67d1787e5bfe31d6eb74"/><file name="Contact.php" hash="6cac465d3def83ecc5b7023ea1fce0f1"/><file name="Country.php" hash="00719daadf5e6b1bf33d20c871b88bbe"/><file name="Currency.php" hash="f0fc753816c8a701a3f4a2a77e538b19"/><file name="Invoice.php" hash="673c6ac4fb12e7fe8b20c70c91a84ffa"/><file name="Observer.php" hash="415a0dd2fa5a994f7cae110ae4d4a230"/><file name="Organization.php" hash="3c9878026777e83c37a0d6d5fbaa7bdd"/><file name="Product.php" hash="eb05e67dba21ee3aac0c929c583f9622"/><file name="Shipment.php" hash="f994dda14c629a2885de0af7a4b3a2e0"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6a3fdd657b1c112c61bb2700564f34ad"/><file name="config.xml" hash="59d4ee6d454c3aa47eb24716e8c9c4f7"/><file name="system.xml" hash="9ff46b75b2ba25efa7fae13c9cbb376f"/></dir></dir></dir></target></contents>
+    <date>2015-01-13</date>
+    <time>00:28:08</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Nicklasmoeller_Billysbilling.xml" hash=""/></dir></target><target name="magecommunity"><dir name="Nicklasmoeller"><dir name="Billysbilling"><dir name="Helper"><file name="Data.php" hash="dd9cc3789c89e26f1701d1d4e44c6f74"/></dir><dir name="Model"><file name="Abstract.php" hash="a4bf6d2ccbb4323089e8fab82cfeb1b2"/><file name="Client.php" hash="859c78f9547c9da81ac14e5e3b144c1c"/><file name="Contact.php" hash="c2ef4893ba39507b35e1f9935e728192"/><file name="Country.php" hash="f899dce07adafb543c1e0c3f629affd6"/><file name="Currency.php" hash="c2ac9dfdd11e35069e4deb3e00a9ab50"/><file name="Invoice.php" hash="cc0afdcef230f6faa8feff212bb929b4"/><file name="Observer.php" hash="c101e1893e5c16f90114aea9381ba88d"/><file name="Organization.php" hash="490f0689b0fa06f969b4fde69f20a152"/><file name="Product.php" hash="77910e6c26e94ae91bc29e3e15a34eae"/><file name="Shipment.php" hash="88ecc1bbbbecc5d098caa043ed549006"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6a3fdd657b1c112c61bb2700564f34ad"/><file name="config.xml" hash="7d7f7b48c03145b93722b5db1b290494"/><file name="system.xml" hash="630086ac461ef5c402e6cc0561cffa19"/></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>5.6.4</max></php></required></dependencies>
 </package>

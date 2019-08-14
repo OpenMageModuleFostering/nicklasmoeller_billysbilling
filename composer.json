@@ -1,7 +1,7 @@
 {
     "name": "OpenMageModuleFostering/Nicklasmoeller_BillysBilling",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "MIT",
     "homepage": "",
     "description": "Automatic creation of invoices in Billy's Billing v2",
     "authors": [
