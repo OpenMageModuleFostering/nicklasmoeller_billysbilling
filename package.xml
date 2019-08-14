@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Nicklasmoeller_BillysBilling</name>
-    <version>0.2.4</version>
+    <version>0.2.5</version>
     <stability>stable</stability>
     <license>MIT</license>
     <channel>community</channel>
@@ -10,11 +10,11 @@
     <description>Billy's Billing enables you to keep your focus on selling, rather than all the hassle with accounting. It automatically sends your data through Billy's Billing API v2.&#xD;
 &#xD;
 It will trigger when you create credit memos and invoices, and submit the order data.</description>
-    <notes>Short syntax array issue in Contacts</notes>
+    <notes>Package to fix php requirements</notes>
     <authors><author><name>Nicklas M&#xF8;ller</name><user>nicklasmoeller</user><email>hello@nicklasmoeller.com</email></author></authors>
-    <date>2015-01-14</date>
-    <time>14:10:38</time>
+    <date>2015-03-05</date>
+    <time>12:09:46</time>
     <contents><target name="mageetc"><dir name="modules"><file name="Nicklasmoeller_Billysbilling.xml" hash=""/></dir></target><target name="magecommunity"><dir name="Nicklasmoeller"><dir name="Billysbilling"><dir name="Helper"><file name="Data.php" hash="dd9cc3789c89e26f1701d1d4e44c6f74"/></dir><dir name="Model"><file name="Abstract.php" hash="a4bf6d2ccbb4323089e8fab82cfeb1b2"/><file name="Client.php" hash="859c78f9547c9da81ac14e5e3b144c1c"/><file name="Contact.php" hash="8a8804456cd136940e1bb81f521e0283"/><file name="Country.php" hash="f899dce07adafb543c1e0c3f629affd6"/><file name="Currency.php" hash="c2ac9dfdd11e35069e4deb3e00a9ab50"/><file name="Invoice.php" hash="cc0afdcef230f6faa8feff212bb929b4"/><file name="Observer.php" hash="c101e1893e5c16f90114aea9381ba88d"/><file name="Organization.php" hash="490f0689b0fa06f969b4fde69f20a152"/><file name="Product.php" hash="77910e6c26e94ae91bc29e3e15a34eae"/><file name="Shipment.php" hash="88ecc1bbbbecc5d098caa043ed549006"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6a3fdd657b1c112c61bb2700564f34ad"/><file name="config.xml" hash="7d7f7b48c03145b93722b5db1b290494"/><file name="system.xml" hash="630086ac461ef5c402e6cc0561cffa19"/></dir></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.2.0</min><max>5.6.4</max></php></required></dependencies>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
