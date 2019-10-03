@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Nicklasmoeller_BillysBilling",
+    "name": "OpenMageModuleFostering\/Nicklasmoeller_BillysBilling",
     "type": "magento-module",
     "license": "MIT",
     "homepage": "",
     "description": "Automatic creation of invoices in Billy's Billing v2",
     "authors": [
-    {
-        "name": "Nicklas M\u00f8ller",
-        "email": "hello@nicklasmoeller.com"
-    }
-],
+        {
+            "name": "Nicklas M\u00f8ller",
+            "email": "hello@nicklasmoeller.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
